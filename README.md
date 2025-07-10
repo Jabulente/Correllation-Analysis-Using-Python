@@ -21,6 +21,24 @@ This project presents a detailed statistical investigation into the resistance l
 * `statsmodels` – post-hoc Tukey HSD and model diagnostics
 * `Jupyter Notebook` – interactive analysis and reporting
 
+
+##  2. [Fertilizers’ Impact on Cowpea Growth and Yield](https://github.com/Jabulente/Cowpea-Fertilizer-Impact)
+
+**📘 Project Overview:**
+This project explores the influence of different fertilizer types on the growth performance and yield potential of cowpea (*Vigna unguiculata*), a vital legume crop in sub-Saharan Africa. Due to the absence of real experimental data, synthetic yet biologically plausible datasets were generated using controlled rules and domain-informed logic to mimic field-based agronomic trials. Fertilizer treatments included NPK, Urea, DAP, Organic, and a Control group. Variables simulated include plant height, number of pods per plant, biomass, seed weight, and final yield. The simulation was carefully designed to reflect realistic fertilizer responses in cowpea physiology. Exploratory data analysis (EDA) was performed to visualize trends across treatments. Statistical comparisons, including ANOVA and effect size calculations, were applied to evaluate the significance of fertilizer impacts. This project offers a compelling demonstration of how synthetic agronomic datasets can be used for modeling, insight generation, and training purposes — especially in regions where data scarcity limits research scalability.
+
+**🛠️ Tech Stack & Tools Used:**
+
+* `Python` – core programming language
+* `numpy` & `random` – synthetic data generation
+* `pandas` – dataset construction and transformation
+* `matplotlib` & `seaborn` – comparative data visualization
+* `scipy.stats` – ANOVA and statistical testing
+* `statsmodels` – model summary and post-hoc analysis
+* `Jupyter Notebook` – for presenting the full workflow
+
+
+
 ## 🚚 2. [Pizza Delivery Patterns Analysis](https://github.com/Jabulente/Pizza-Delivery-EDA)
 
 **Description:**  
@@ -33,14 +51,7 @@ Exploratory data analysis project focused on identifying how delivery durations 
 **Description:**  
 Performed A/B testing on a fashion retail company’s marketing campaign data. Compared performance between a control group, discount group, and loyalty bonus group using statistical hypothesis testing.
 
----
 
-## 🌾 4. [Fertilizers’ Impact on Cowpea Growth and Yield](https://github.com/Jabulente/Cowpea-Fertilizer-Impact)
-
-**Description:**  
-Synthetic data generation and analysis of the impact of various fertilizers (NPK, Urea, DAP, Organic) on cowpea growth. Simulated realistic growth and yield metrics, and performed visual and statistical comparisons.
-
----
 
 ## 📊 5. [Campaign Performance Analysis (Marketing Dataset)](https://github.com/Jabulente/Campaign-Performance-Analysis)
 
