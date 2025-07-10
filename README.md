@@ -4,14 +4,22 @@ Welcome to my GitHub portfolio! I'm a passionate data analyst and agritech enthu
 
 Below you'll find a list of selected projects, each linked to its repository with a description of its purpose and methods.
 
----
 
-## 🌱 1. [Analysis of Eggplant Resistance in Fusarium Wilt](https://github.com/Jabulente/Analysis-of-Eggplant-Resistance-in-Fusarium-Wilt)
 
-**Description:**  
-This project involves an in-depth statistical analysis of eggplant varieties and their resistance to *Fusarium wilt*. It includes ANOVA, Tukey's HSD, and exploratory data analysis to uncover patterns in resistance levels.
+##  1. [Analysis of Eggplant Resistance in Fusarium Wilt](https://github.com/Jabulente/Analysis-of-Eggplant-Resistance-in-Fusarium-Wilt)
 
----
+**Description:**
+
+This project presents a detailed statistical investigation into the resistance levels of different eggplant (*Solanum melongena*) varieties against *Fusarium wilt*, a major soil-borne fungal disease that severely limits crop productivity in many tropical and subtropical regions. Using real experimental data collected from controlled trials, the study aimed to determine which varieties demonstrated statistically significant resistance traits. The analysis began with exploratory data visualization to understand the distribution of resistance scores across varieties, followed by rigorous statistical testing. A one-way ANOVA was conducted to assess whether mean resistance levels varied significantly among the varieties, and a post-hoc Tukey HSD test was applied to pinpoint specific group differences. Results were interpreted not only statistically, but also agronomically, helping inform better varietal selection for future breeding and cultivation programs.
+
+**🛠️ Tech Stack & Tools Used:**
+
+* `Python` – primary programming language
+* `pandas` – data manipulation and wrangling
+* `seaborn` & `matplotlib` – data visualization
+* `scipy.stats` – statistical testing (ANOVA)
+* `statsmodels` – post-hoc Tukey HSD and model diagnostics
+* `Jupyter Notebook` – interactive analysis and reporting
 
 ## 🚚 2. [Pizza Delivery Patterns Analysis](https://github.com/Jabulente/Pizza-Delivery-EDA)
 
